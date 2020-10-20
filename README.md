@@ -21,7 +21,9 @@ kubectl get nodes
 kubectl get nodes/gke-my-cluster-default-pool-b5fc7f09-pg2s -o json
 
 # delete an object 
-
 kubectl delete  nodes/gke-my-cluster-default-pool-b5fc7f09-pg2s
+## launch a pod
+kubectl run <NAME> --image=<URI> 
+  
 
 
